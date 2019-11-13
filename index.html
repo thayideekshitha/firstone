@@ -3,12 +3,16 @@
 <head>
 	<title>testing</title>
 	<style>
+		*{
+			box-sizing: border-box;
+		}
 		h1{color: black;
 			text-transform: uppercase;
 			text-align: center;
+
 		}
 body{background-color: grey;}
-p{width: 200px;}
+section{width: 200px;}
 li{list-style: none;}
 a:visited, a:link{text-decoration: none;
 background-color: green;
@@ -20,20 +24,66 @@ a:hover, a:active{
 	background-color: red;
 	color:black;
 	border:1px solid blue;}
+#box{ background-color: red;
+	padding: 10px;
+border: 4px solid black;
+width:200px;
+height:150px;
+overflow: auto; }
+#text{ background-color: green; 
+}
+p{
+	width:50px;
+	height:50px;
+	border:1px solid black;
+	float: left;
+	
+
+}
+#p1{ background-color: pink;
+	margin-right: 10px;
+
+}
+#p2{
+	background-color: blue;}
+	#p3{background-color: red;
+		clear:left;
+		margin-right: 10px;}
+	#p4{background-color: green;}
+	#p5{
+		clear:left;
+		width:50%;
+		overflow: auto;}
+		#p6{
+			width:50%;
+			overflow: auto;}
 	</style>
 }
-}
-}
-}
+
+
+
 
 </head>
 <body>
 <h1>testing one</h1>
-<p>A landscape is the visible features of an area of land, its landforms, and how they integrate with natural or man-made features.[1] A landscape includes the physical elements of geophysically defined landforms such as (ice-capped) mountains, hills, water bodies such as rivers, lakes, ponds and the sea, living elements of land cover including indigenous vegetation, human elements including different forms of land use, buildings, and structures, and transitory elements such as lighting and weather conditions.</p>
+<section>A landscape is the visible features of an area of land, its landforms, and how they integrate with natural or man-made features.[1] A landscape includes the physical elements of geophysically defined landforms such as (ice-capped) mountains, hills, water bodies such as rivers, lakes, ponds and the sea, living elements of land cover including indigenous vegetation, human elements including different forms of land use, buildings, and structures, and transitory elements such as lighting and weather conditions.</section>
 <ul>
 	<li><a href="https://www.pexels.com/photo/red-canoes-on-sea-dock-near-calm-body-of-water-1619317/">landscape</a></li>
 <li><a href="https://www.pexels.com/photo/seaport-during-daytime-132037/">potrait</a></li>
 <li><a href="https://www.pexels.com/photo/gray-bridge-and-trees-814499/">beach</a></li>
+
 </ul>
+<div id="box">
+<div id="text">A landscape includes the physical elements of geophysicallyhgxshjb asgxyjug gusyguiah hguihs ygjadsdkjnhkahfhvshxbajcbhj gsbygy </div></div>
+<div>
+	<p id="p1">pink </p>
+	<p id="p2">blue</p>
+	<p id="p3">red</p>
+	<p id="p4">green</p>
+	<p id="p5">yellowA landscape includes the physical elements of geophysically defined landforms such as (ice-capped) mountains, hills, water bodies such as rivers, lakes, ponds and the sea, living elements of land cover including indigenous vegetation, human elements including different forms of land use, buildings, and structures, and ...</p>
+	<p id="p6">orangeA landscape includes the physical elements of geophysically defined landforms such as (ice-capped) mountains, hills, water bodies such as rivers, lakes, ponds and the sea, living elements of land cover including indigenous vegetation, human elements including different forms of land use, buildings, and structures, and ...</p>
+	
+
+</div>
 </body>
 </html>
